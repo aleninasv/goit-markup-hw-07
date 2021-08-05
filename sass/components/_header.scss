@@ -1,0 +1,30 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.menu-list:not( :last-child),
+.contacts-list:not( :last-child) {
+  margin-right: 50px;
+}
+.main-nav,
+.main-menu,
+.contacts-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header,
+.portfolio-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-svg {
+  margin-right: 10px;
+}
+.portfolio-header {
+  border-bottom: 1px solid #ECECEC;
+  }
