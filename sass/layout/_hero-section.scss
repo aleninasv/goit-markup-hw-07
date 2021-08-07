@@ -1,4 +1,4 @@
-.hero-section {
+.section__hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images-hero/img-bgr-hero.jpg), linear-gradient(#c4c4c4, #c4c4c4);
   background-position: center;
   max-width: 1600px;
@@ -7,7 +7,7 @@
   display: block;
   margin: 0 auto;
 }
-.hero-title {
+.title__hero {
   color: var(--accent-font-color);
   font-weight: 900;
   font-size: 44px;
